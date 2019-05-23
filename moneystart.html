@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+<meta charset ="utf-8">
+<title>
+Starting Up a Small Business
+</title>
+<link rel="stylesheet" type="text/css" href= "moneydesign.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="businessscript.js"></script>
+</head>
+<body>
+<!-- logo goes here -->
+<div class="banner">
+	<img src = "moneylogo.png" alt = "Business Tips Logo" title = "Business Tips Logo">
+</div>
+<!-- navigation --> 
+<nav>
+	<a class="highlight" href="index.html"><b>Home</b></a> | <a class="highlight" href="moneyabout.html"><b>About Us</b> </a>|<a class="highlight" href="moneycost.html"> <b> Business Costs</b> </a> |<a class = 
+	"highlight" href = "moneysave.html"><b>Saving</b> </a>| <a class = "highlight" href= "moneystart.html"> <b> Starting Up </b> </a>
+</nav>
+<!-- main content --> 
+<main>
+	<div class ="content">
+		<article>
+		<h1> Starting up a small business.</h1>
+		 Bellow are some various video tutorials on helping you start a small business. Select a video from the list
+		 to get started!
+		 <br>
+			<!-- video options -->
+			<select id="media" onclick="showVideo()">
+				<option value="video1">5 Small Business You Can Start at Home</option>
+				<option  value="video2">The Secret to Making Money by Starting Up a Small Business</option>
+				<option  value="video3">Modern Tips For Small Business Start-Ups</option>
+				<option  value="viewall">View all</option>
+			</select>
+		<!-- 5 Small Business Tips You Can Start at Home | source url: https://www.youtube.com/watch?v=UIwBPYBzDCg -->
+		 <iframe id="vid1" width="560" height="315" 
+		 src="https://www.youtube.com/embed/UIwBPYBzDCg" allowfullscreen
+		 ></iframe>
+		 <!-- The Secret to Making Money by Starting Up a Small Business | source url: https://www.youtube.com/watch?v=aMIESSL6W60 -->
+		<iframe id="vid2"
+		width="560" height="315" src="https://www.youtube.com/embed/aMIESSL6W60"  allowfullscreen>
+		</iframe>
+		<br>
+		<!-- Modern Tips For Small Business Start Ups | https://www.youtube.com/watch?v=58yj9IrfGUk -->
+		<iframe id="vid3" width="560" height="315" src="https://www.youtube.com/embed/58yj9IrfGUk"  allowfullscreen>
+		</iframe> <br>
+		<button onclick="showVidSource()">Click to view sources</button><br>
+		<div class ="citationvideo" id = "sources">
+		<b>5 Small Business You Can Start at Home</b> <br>
+		Source: https://www.youtube.com/watch?v=UIwBPYBzDCg
+		<br>
+		<b>The Secret to Making Money by Starting Up a Small Business</b> <br>
+		https://www.youtube.com/embed/aMIESSL6W60 <br>
+		<b>Modern Tips For Small Business Start-Ups</b> <br>
+		source: https://www.youtube.com/watch?v=58yj9IrfGUk
+		</div>
+		 </article>
+		 <audio autoplay>
+		  <source src="kaching.ogg" type="audio/ogg">
+		  <!-- source url: https://commons.wikimedia.org/wiki/File:Cash_register.ogg -->
+		</audio>
+
+		</div>
+</main>
+</body>
+</html>

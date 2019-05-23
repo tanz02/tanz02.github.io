@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+<meta charset ="utf-8">
+<title>
+Mike's Business Tips
+</title>
+<link rel="stylesheet" type="text/css" href= "moneydesign.css">
+<!-- jquery google api -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- external javascript -->
+<script src="businessscript.js"></script>
+</head>
+<body onLoad = "currentTime()">
+<!-- logo goes here -->
+<div class="banner">
+	<img src = "moneylogo.png" alt = "Business Tips Logo" title = "Business Tips Logo">
+</div>
+<!-- navigation --> 
+<nav>
+	<a class="highlight" href="moneyhome.html"><b>Home</b></a> | <a class="highlight" href="moneyabout.html"><b>About Us</b> </a>| <a class="highlight" href="moneycost.html"> <b> Business Costs</b> </a> |<a class = 
+	"highlight" href = "moneysave.html"><b>Saving</b> </a>| <a class = "highlight" href= "moneystart.html"> <b> Starting Up </b> </a>
+</nav>
+<!-- main content --> 
+<main>
+		<div class ="content">
+		<article>
+		<h1> Welcome to Mike's Business Tips.</h1>
+		<video width="320" height="240" controls autoplay>
+		  <source src="welcome.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
+		<audio autoplay>
+		  <source src="kaching.ogg" type="audio/ogg">
+		  <!-- source url: https://commons.wikimedia.org/wiki/File:Cash_register.ogg -->
+		</audio>
+		
+		<!-- dynamic drive image gallery source url: http://www.dynamicdrive.com/dynamicindex4/cmotiongallery.htm
+							/***********************************************
+					* CMotion Image Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+					* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+					* Please keep this notice intact
+					* Modified by Jscheuer1 for autowidth and optional starting positions
+					***********************************************/	-->
+			    <div id="motioncontainer" style="position:relative;overflow:hidden;">
+				<div id="motiongallery" style="position:absolute;left:0;top:0;white-space: nowrap;">
+
+				<div id="trueContainer" style="white-space: nowrap;">
+
+				<ul>
+				<!-- source url: https://pixabay.com/p-594132/?no_redirect author: StartupStockPhotos -->
+				<li><a href="#"><img src="writing.jpg" alt="writing"></a></li>
+				<!-- source url: https://pixabay.com/en/entrepreneur-startup-start-up-man-593358/ author: StartupStockPhotos -->
+				<li><a href="#"><img src="startup.jpg" alt="startup"></a></li>
+				<!-- source url: https://pixabay.com/en/business-world-business-world-map-316906/ auhtor: Kaz -->
+				<li><a href="#"><img src="people.jpg" alt="people"></a></li>
+				</ul>
+
+				</div>
+
+				</div>
+				</div>
+				
+		<!-- end -->
+		
+
+		<p>
+		We here at Mike's Business Tips strive for excellence in new and current small business owners.
+		We want to see them thrive. If you are a new or current business owner please continue to read 
+		</p>
+		<br>
+		<button onclick="displayIssues()">Things to concider</button>
+		<div id=list> 
+		</div>
+		<br>
+		Don't sweat it. We are here to help. Just follow our guides and you should be back on your feet in no time! <br><br>
+		<div id="showtime"></div>
+		 </article>
+		</div>
+</main>
+</body>
+</html>

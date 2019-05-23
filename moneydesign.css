@@ -1,0 +1,196 @@
+@font-face
+{
+	font-family: modernfont;
+	src: url(gidole.ttf);
+	/* font source: https://fontlibrary.org/en/font/gidole-regular */
+}
+@font-face
+{
+	font-family: cooper;
+	src: url(cooper.otf);
+	/* font source: https://fontlibrary.org/en/font/cooper-hewitt author: Chester Jenkins */
+}
+
+ol
+{
+	color: blue;
+}
+
+body
+{
+	background-image: url("wood.jpg");
+	/*source url: http://www.publicdomainpictures.net/view-image.php?image=63744&picture=old-wood-texture author: Peter Kovar */
+	 font-family: modernfont;
+}
+
+.banner
+{
+text-align: center;
+margin: auto;
+}
+
+/* box for navgation for backround images */
+nav
+{
+font-family: cooper;
+background-image: url("crumpled.jpg");
+/* source url: https://www.flickr.com/photos/texturezine/8178175933/ author: Kuala Lumpur */
+width: 800px;
+height: 50px; 
+margin: 0 auto; 
+text-align: center;
+color: #007069;
+font-size: 30px;
+}
+
+/* keeps everything organized */
+main
+{
+	margin:0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding: 20px;
+}
+
+.content
+{
+text-align: center;
+background-image: url("paper.jpg");
+/* source url: https://pixabay.com/en/paper-old-texture-parchment-1074131/  author: Chris Fiedler */ 
+padding:5px;
+width: 800px;
+min-height:200px;
+}
+/* for multimedia */
+.media
+{
+float: left;
+width:280px;
+min-height: 200px;
+}
+/* text based content */
+article
+{
+text-align: center;
+min-height:200px;
+}
+/* button design */
+button
+{
+	font-family: cooper;
+	background-color: #007069;
+	border: none;
+	color:white;
+	font-size: 20px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+button:hover
+{
+	background-color: green;
+	color: white;
+}
+
+/* input button design */
+.buttoninput
+{
+font-family: cooper;
+	background-color: #007069;
+	border: none;
+	color:white;
+	font-size: 20px;
+	cursor: pointer;
+	transition-duration: 0.5s;	
+}
+
+.buttoninput:hover
+{
+	background-color: green;
+	color: white;
+}
+
+
+
+a.highlight:link {
+    color: #007069;
+	text-decoration: none;
+}
+a.highlight:visited 
+{
+    color: #007069;
+	text-decoration: none;
+}
+a.highlight:hover
+{
+	color:green;
+}
+iframe 
+{
+    display: none;
+}
+.sources
+{
+	display: none;
+}
+.citationvideo
+{
+	display: none;
+}
+.steps
+{
+	display:none;
+}
+.hidediv
+{
+	display:none;
+}
+
+/* Souce url http://www.dynamicdrive.com/dynamicindex4/cmotiongallery.htm /*
+/* *********************************************** */
+/* CMotion Image Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com) */
+/* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts */
+/* Please keep this notice intact */
+/* Modified by Jscheuer1 for autowidth and optional starting positions */
+/* *********************************************** */
+
+
+/* Gallery Styles */
+
+#motioncontainer {
+margin:0 auto;  
+width: 50%; /* Set to gallery width, in px or percentage */
+height: 200px; /* Set to gallery height */
+}
+
+#motioncontainer ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#motioncontainer li{
+display: inline;
+}
+
+#motioncontainer a img {
+border: 1px solid #cccccc; /* Set image border color */
+}
+
+#motioncontainer a:hover img {
+border: 1px solid navy; /* Set image border hover color */
+}
+
+#statusdiv {
+background-color: lightyellow;
+border: 1px solid gray;
+padding: 2px;
+position: absolute; /* Stop Editing Gallery Styles */
+left: -300px;
+visibility: hidden;
+}
+
+#motioncontainer a:hover {
+color: red; /* Dummy definition to overcome IE bug */
+}
+/* End Gallery Styles */

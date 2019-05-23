@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+<meta charset ="utf-8">
+<title>
+About Us. 
+</title>
+<link rel="stylesheet" type="text/css" href= "moneydesign.css">
+<!--Google JQuery API-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- external javascript -->
+<script src="businessscript.js"></script>
+</head>
+<body>
+<!-- logo goes here -->
+<div class="banner">
+	<img src = "moneylogo.png" alt = "Business Tips Logo" title = "Business Tips Logo">
+</div>
+<!-- navigation --> 
+<nav>
+	<a class="highlight" href="index.html"><b>Home</b></a> | <a class="highlight" href="moneyabout.html"><b>About Us</b> </a>|<a class="highlight" href="moneycost.html"> <b> Business Costs</b> </a> |<a class = 
+	"highlight" href = "moneysave.html"><b>Saving</b> </a>| <a class = "highlight" href= "moneystart.html"> <b> Starting Up </b> </a>
+</nav>
+<!-- main content --> 
+<main>
+	<div class ="content">
+		<article>
+		<h1> About Us.</h1>
+		<br>
+		<p>
+		 Mike's Business Tips is a non profit organization looking to help small buisness owners for free. We don't 
+		 ask for any sort of monetary payment or donation. We are simply looking to help out our local community business'
+		that we do not wanna see dissapeear. Too many of these places are shutting down before the big corporations take
+		over. Small business owners have to support themselves and their families and they contribute to the local 
+		economy. If multiple small business fall down then there is a ripple in the local economy. This website was
+		created to prevent any losses to our communities. 
+		</p>
+		<button id="pressabout">Show more</button>
+		 </article>
+		</div>
+	<!-- who we are section -->
+	<div id="showabout" class="hidediv">
+		<div class = "content">
+			<div class="media">
+			<img src = "technology.jpg" width="280" height="200" alt = "doing business" />
+			<!-- source url: http://kaboompics.com/one_foto/869/man-holds-digital-tablet-in-his-hands --> 
+			</div>
+			<article>
+			<h2> Who we are </h2>
+			<br>
+			We are a virtul organization with no physical address. All our resources are utilized on the web. Our organization was founded 
+			in 2016. This site was made in order to help people due to the fact that we have such a weak economy 
+			today.<br><br>
+			<button id="presscontact">Show More</button>
+			</article>
+		</div>
+	</div>
+		<div id="showcontact" class="hidediv">
+		<div class ="content">
+			<div class="media">
+			<br>
+			<img src = "email.png" width="280" height="188" alt = "doing business" />
+			<!-- source url: https://pixabay.com/static/uploads/photo/2014/07/10/14/58/letters-389108_960_720.png   author: Stefan Schweihofer -->
+			</div>
+			<article>
+			<h2> Contact Us </h2>
+		<!-- Contact form -->
+		<input type="button" id="contactbutton" class="buttoninput" onclick="showForm()" value="Click me!">
+		<div  id ="contact" name="contactform" style="display:none">		
+		<form name="myinfo" action="mailto:mtanzi@albany.edu" onsubmit="return validateForm()" method="post" enctype="text/plain">
+		Name: <br>
+		<input type="text" name="name"> <br>
+		Telephone number:<br>
+		<input type="text" name="number"><br>
+		Message<br>
+		<input type="text" name="message"><br>                                                            
+		<input type="submit" class="buttoninput" value="Submit">
+		</form>
+	
+		</div> 
+`			</article>
+		<audio autoplay>
+		  <source src="kaching.ogg" type="audio/ogg">
+		 <!-- source: https://commons.wikimedia.org/wiki/File:Cash_register.ogg -->
+		</audio>
+
+		</div>
+</main>
+</body>
+</html>
